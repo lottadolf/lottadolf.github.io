@@ -1,0 +1,8 @@
+h1, h2 {
+    font-family: Tahoma;
+    text-align: center
+}
+
+.pic {
+    background-image: url('Img/Lotta.JPG');
+}
