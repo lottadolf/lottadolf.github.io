@@ -3,7 +3,12 @@ h1, h2 {
     text-align: center
 }
 
+.header {
+    background-color: #e9e0d6;
+    height: 300px;
+}
+
 .pic {
-    background-image: url('Img/Lotta.JPG');
+    background-image: url('/Img/Lotta.JPG');
     
 }
