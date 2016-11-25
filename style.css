@@ -1,14 +1,56 @@
-h1, h2 {
+ h1, h2 {
     font-family: Tahoma;
-    text-align: center
-}
+    text-align: center;
+ }
+ 
+ p {
+    text-align: center;
+    font-family: Tahoma;
+ }
+ 
+ .whiteText {
+     color: #e9e0d6;
+     size: 16px;
+ }
+ 
+ .bg {
+    background-image: url('/Img/londonSunset.JPG');
+    background-position: center;
+    height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
 
 .header {
+    height: 200px;
+    background-color: transparent;
+    
+}
+
+.title {
     background-color: #e9e0d6;
     height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.space {
+    height: 300px;
+    background-color: transparent;
 }
 
 .pic {
     background-image: url('/Img/Lotta.JPG');
-    
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    align-items: baseline;
+    margin: 50px;
 }
+
+.about {
+   background-color: #e56f5e;
+   height: 300px;
+ }
