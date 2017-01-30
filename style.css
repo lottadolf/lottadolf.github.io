@@ -29,10 +29,19 @@ html {
 }
 
 .about {
+    background: rgba(233, 224, 214, 0.4);
+    width: 600px;
+    padding: 40px;
+    margin: 40 auto;
+    color: #e9e0d6;
+    size: 20px;
+ }
+ 
+ .experience {
     background-color: #e56f5e;
     width: 600px;
     padding: 40px;
-    margin: 0 auto;
+    margin: 40 auto;
     color: #e9e0d6;
     size: 20px;
  }
