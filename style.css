@@ -15,9 +15,10 @@ html {
 }
 
 .title {
-    background-color: #e9e0d6;
+    background: rgba(233, 224, 214, 0,4);
     height: 300px;
-    box-shadow: 10px 10px 5px #888888;
+    width: 600px;
+    /* box-shadow: 10px 10px 5px #888888;*/
     margin: 0 auto;
 }
 
@@ -29,7 +30,7 @@ html {
 
 .about {
     background-color: #e56f5e;
-    width: 560px;
+    width: 600px;
     padding: 40px;
     margin: 0 auto;
     color: #e9e0d6;
