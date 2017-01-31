@@ -1,47 +1,53 @@
- h1, h2, h3, h4, p {
-    font-family: Tahoma;
- }
-  
 html { 
   background: url('/Img/londonSunset.JPG') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-.title {
-    background: rgba(233, 224, 214, 0.4);
-    width: 900px;
-    margin: 40 auto;
-    padding: 60px:
+  font-family: 'Muli', sans-serif;
 }
 
 .header {
     background: rgba(0, 0, 0, 0.5);
-    width: 600px:
+    color:  #e9e0d6;
+    padding: 40px;
+    margin: 0 auto;
+    width: 620px;
+    text-align: center;
 }
 
 .mePic {
-    border-radius: 40%;
-    height:200px;
+    border-radius: 50%;
+    height: 200px;
+}
+
+.contact {    
+    padding-top: -10px;
     
 }
 
 .about {
-    background: rgba(233, 224, 214, 0.4);
-    width: 600px;
+    background: rgba(233, 224, 214, 0.5);
+    width: 620px;
+    padding: 40px;
+    margin: 40 auto;
+    color: black;
+    size: 20px;
+ }
+ 
+ .experience {
+    background: rgba(0, 0, 0, 0.5);
+    width: 620px;
     padding: 40px;
     margin: 40 auto;
     color: #e9e0d6;
     size: 20px;
  }
  
- .experience {
-    background-color: #e56f5e;
-    width: 600px;
-    padding: 40px;
-    margin: 40 auto;
-    color: #e9e0d6;
-    size: 20px;
+ .descr {
+     font-style: italic;
+ }
+ 
+ a {
+     color: white;
  }
